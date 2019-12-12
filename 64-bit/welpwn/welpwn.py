@@ -15,7 +15,7 @@ puts_plt = elf.plt['puts']
 main = elf.sym['main']
 
 pop_rdi = 0x4008a3  # pop rdi; ret;
-pop_r12 = 0x000000000040089c  # pop r12; pop r13; pop r14; pop r15; ret;
+pop_r12 = 0x40089c  # pop r12; pop r13; pop r14; pop r15; ret;
 
 r.readline()
 
