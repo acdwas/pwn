@@ -51,4 +51,6 @@ p += p64(main)
 
 r.sendline(p)
 
+# gdb.attach(r)
+
 r.interactive()
