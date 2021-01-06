@@ -1,5 +1,4 @@
 
-import sys
 from pwn import *
 
 context.clear(arch = 'i386')
